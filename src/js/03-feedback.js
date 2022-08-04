@@ -62,7 +62,7 @@ populateFormInput();
 function onFormSubmit(event) {
     event.preventDefault();
     event.currentTarget.reset();
-    console.log(formData);
+
     localStorage.removeItem(STORAGE_KEY);
 };
 
