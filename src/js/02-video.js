@@ -1,5 +1,6 @@
-  import throttle from "lodash.throttle";
-const LS_KEY = currentSecondOfVideo
+
+import throttle from "lodash.throttle";
+const LS_KEY = videoplayer-current-time
 const iframe = document.querySelector('iframe');
     const player = new Vimeo.Player(iframe);
 
@@ -27,5 +28,8 @@ player.setCurrentTime(localStorage.getItem(LS_KEY)).then(function(seconds) {
             break;
     }
 });
+
+
+
 
 
