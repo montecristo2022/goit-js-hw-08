@@ -1,6 +1,6 @@
 
 import throttle from "lodash.throttle";
-const LS_KEY = videoplayer-current-time
+const LS_KEY = 'secondOfTime'
 const iframe = document.querySelector('iframe');
     const player = new Vimeo.Player(iframe);
 
